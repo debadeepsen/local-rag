@@ -6,6 +6,7 @@ __pycache__/
 # Environment files
 .env
 .env.*
+!.env.example
 # Local settings
 local.settings.json
 # IDE / editor files
@@ -33,6 +34,8 @@ htmlcov/
 
 # backup files
 **backup**
+
+**plan**
 
 # Vector database and user uploads
 data/chroma/*

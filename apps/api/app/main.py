@@ -4,6 +4,10 @@ import os
 import shutil
 import requests
 import uuid
+from dotenv import load_dotenv
+
+# Load .env from the repository root (two levels above this file)
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../../../.env"))
 from typing import List
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
