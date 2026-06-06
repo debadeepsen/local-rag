@@ -1,0 +1,7 @@
+chromadb>=1.0.0
+fastapi
+uvicorn
+requests
+pypdf
+pydantic
+python-multipart

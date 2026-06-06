@@ -1,0 +1,42 @@
+# Python virtual environment
+.venv/
+# Python cache
+__pycache__/
+*.py[cod]
+# Environment files
+.env
+.env.*
+# Local settings
+local.settings.json
+# IDE / editor files
+.idea/
+.vscode/
+# Node.js dependencies
+node_modules/
+# Frontend build artifacts (Vite)
+/dist/
+/build/
+# Logs
+*.log
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+# MyPy cache
+.mypy_cache/
+# Ruff cache (if used)
+.ruff_cache/
+# macOS system files (unlikely on Windows but safe)
+.DS_Store
+# Other generated files
+*.egg-info/
+
+# backup files
+**backup**
+
+# Vector database and user uploads
+data/chroma/*
+!data/chroma/.gitkeep
+
+data/raw-docs/*
+!data/raw-docs/.gitkeep
